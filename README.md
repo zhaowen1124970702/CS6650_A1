@@ -1,6 +1,6 @@
 # CS6650_A1
 
-**Note: Description of my client desegin, requred plots and outputs of each run are all included in file "Assignment 1 Client Design_WEN_ZHAO.PDF".The following is major introduction for this project.**
+**_Note: Description of my client desegin, requred plots and outputs of each run are all included in file "Assignment 1 Client Design_WEN_ZHAO.PDF".The following is major introduction for this project._**
 
  
 
@@ -30,6 +30,7 @@ It is basically the same as Part 1, but there is a little changes to have deeper
 ## ------Good Design practices used------
 
 To follow good design practice, inheritance is adopted in the StoreThread1 class so that we could use Runnable object to create a thread and it is more flexible.
+
 To enhance thread-safe, StoreThread2 employs CopyOnWriteArrayLis instead of ArrayList to store the record data of each thread, which is especially useful in multithreaded code when reads frequent.
 
 ------Accept command-line options------
